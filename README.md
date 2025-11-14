@@ -3,7 +3,7 @@
 Um **Sistema de Gerenciamento** completo e robusto, projetado para otimizar as operações da ***Wizard Tecnologia***.
 
 ### Funcionalidades Chave
-- **Controle de Estoque**: Gerenciamento em tempo real de **inventário** entradas e saídas, e alertas de baixo estoque.
+- **Controle de Estoque**: Gerenciamento em tempo real de **inventário**, entradas e saídas, e alertas de baixo estoque.
 
 - **Gestão de Contratos**: Armazenamento, rastreamento e organização de **documentos contratuais**, com prazos e status centralizados.
 
@@ -17,11 +17,11 @@ Construído com a performance e escalabilidade do ``Node.js`` e ``MYSQL``, garan
 ### Instalação via Docker
 Para iniciar a instalação via ``Docker`` execute o seguinte comando na pasta raiz do projeto:
 ```Bash
-docker composer up -D
+docker compose up -d
 ```
 
 ### Instalação direta
-#### Pre-Requisitos
+#### Pré-Requisitos
 1. Node: 24
 2. Mysql: 8
 
@@ -32,7 +32,7 @@ docker composer up -D
 **CRIAR DEPOIS**
 
 ### Via Postman
-Acesse nossos endpoint utilizando o ``Postman`` atraves do nosso [workspace](https://www.postman.com/ "WZ.GESTOR BACKEND - EndPoints").
+Acesse nossos endpoints utilizando o ``Postman`` através do nosso [workspace](https://www.postman.com/ "WZ.GESTOR BACKEND - EndPoints").
 
 ## Licença
-Para mais informações acesse nossa [Pagina de licença](https://github.com.br/ "WZ.GESTOR - Licença").
+Para mais informações acesse nossa [Página de licença](https://github.com.br/ "WZ.GESTOR - Licença").
