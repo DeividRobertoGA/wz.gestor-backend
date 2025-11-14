@@ -1,3 +1,6 @@
+DevDockerFile
+compose.dev.yaml
+
 # Logs 
 logs
 *.log
