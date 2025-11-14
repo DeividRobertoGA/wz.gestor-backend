@@ -35,4 +35,4 @@ docker compose up -d
 Acesse nossos endpoints utilizando o ``Postman`` através do nosso [workspace](https://www.postman.com/ "WZ.GESTOR BACKEND - EndPoints").
 
 ## Licença
-Para mais informações acesse nossa [Página de licença](https://github.com.br/ "WZ.GESTOR - Licença").
+Para mais informações acesse nossa [Página de licença](https://github.com/DeividRobertoGA/wz.gestor-backend?tab=MIT-1-ov-file "WZ.GESTOR - Licença").
