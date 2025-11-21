@@ -1,0 +1,26 @@
+Table users {
+    id integer [primary key, increment, not null]
+    name varchar(150) [not null]
+    email varchar(255) [unique, not null]
+    password longtext [null]
+    avatar_url longtext [not null]
+    color varchar(6) [unique, not null]
+    code varchar(6) [null]
+    created_at date [not null]
+    updated_at date [null]
+}
+
+Table permissions {
+    id integer [primary key, increment, not null]
+    name varchar(150) [unique, not null]
+    permission longtext [not null]
+    created_at date [not null]
+    updated_at date [null]
+}
+
+Table userPermission {
+    user_id integer [ref: - users.id]
+    permission_id integer [ref: - permissions.id]
+    created_at date [not null]
+    updated_at date [null]
+}
