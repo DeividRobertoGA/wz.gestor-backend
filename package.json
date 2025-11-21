@@ -16,14 +16,22 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "migrate:make": "knex --knexfile knexfile.js migrate:make",
+    "migrate:latest": "knex --knexfile knexfile.js migrate:latest",
+    "migrate:rollback": "knex --knexfile knexfile.js migrate:rollback",
+    "seed:make": "knex --knexfile knexfile.js seed:make",
+    "seed:run": "knex --knexfile knexfile.js seed:run"
+
   },
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "mysql2": "^3.15.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
